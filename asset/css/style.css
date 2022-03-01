@@ -1,12 +1,29 @@
-#section-1{
+.color_blue {
+    color: blue;
+}
+
+.color_white {
+    color: white;
+}
+
+.bg_color_orange {
+    background-color: rgb(248, 61, 4);
+}
+
+.border_rad_20px {
+    border-radius: 20px;
+}
+
+#section-1>div {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
+    height: 70vh;
 }
 
-#section-4{
+#section-4 {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-position: center;
+    background-position:top;
     background-size: cover;
     background-color: gray;
 }
@@ -15,15 +32,15 @@
     background-color: gray;
 }
 
-#section-7{
+#section-7 {
     background-color: silver;
 }
 
-#section-9{
+#section-9 {
     background-color: blue;
 }
 
-.d_md_none{
+.d_md_none {
     display: none;
 }
 
@@ -32,9 +49,11 @@
     .d_md_none {
         display: block;
     }
-    .justify_content_center_md{
+
+    .justify_content_center_md {
         justify-content: center;
     }
+
     .mx_20px_md {
         margin: 0 20px;
     }
