@@ -17,3 +17,20 @@
 #section-10{
     background-color: blue;
 }
+
+.d_md_none{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .d_md_none {
+        display: block;
+    }
+    .justify_content_center_md{
+        justify-content: center;
+    }
+    .mx_20px_md {
+        margin: 0 20px;
+    }
+}
