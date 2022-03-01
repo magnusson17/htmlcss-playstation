@@ -18,6 +18,10 @@
     border-radius: 20px;
 }
 
+.border_rad_10px {
+    border-radius: 10px;
+}
+
 #section-1>div {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
