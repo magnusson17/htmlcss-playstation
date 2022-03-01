@@ -10,6 +10,10 @@
     background-color: rgb(248, 61, 4);
 }
 
+.bg_color_black_rgba_05 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .border_rad_20px {
     border-radius: 20px;
 }
@@ -21,11 +25,12 @@
     height: 70vh;
 }
 
-#section-4 {
+#section-4>div {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position:top;
     background-size: cover;
     background-color: gray;
+    height: 70vh;
 }
 
 #section-5 {
