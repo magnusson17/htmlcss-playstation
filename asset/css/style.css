@@ -8,6 +8,11 @@
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
+    background-color: gray;
+}
+
+#section-6 {
+    background-color: gray;
 }
 
 #section-8{
