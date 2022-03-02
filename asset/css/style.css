@@ -73,6 +73,11 @@
     color: white;
 }
 
+/*CHANGE BOOTSTRAPT CLASS*/
+.navbar-collapse {
+    flex-grow: 0;
+}
+
 @media screen and (min-width: 768px) {
 
     .d_md_none {
