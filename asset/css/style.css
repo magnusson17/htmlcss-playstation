@@ -1,3 +1,4 @@
+/*MULTI USE CLASSES*/
 .color_blue {
     color: blue;
 }
@@ -26,45 +27,48 @@
     border-radius: 10px;
 }
 
+.d_md_none {
+    display: none;
+}
+
+/*hover effetcts*/
+.hover_img_up:hover {
+    transform: translateY(-5%); 
+}
+/*HEADER SECTION*/
 #header-section img {
     height: 30px;
 }
-
+/*SECTION 1*/
 #section-1>div {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
     height: 70vh;
 }
-
+/*SECTION 4*/
 #section-4>div {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position:center;
     background-size: cover;
     background-color: gray;
 }
-
+/*SECTION 5*/
 #section-5 {
     background-color: gray;
 }
-
+/*SECTION 7*/
 #section-7 {
     background-color: silver;
 }
-
+/*SECTION 9*/
 #section-9 {
     background-color: blue;
 }
-
+/*SECTION FOOTER*/
 #section-footer a {
     color: white;
 }
-
-.d_md_none {
-    display: none;
-}
-
-
 
 @media screen and (min-width: 768px) {
 
