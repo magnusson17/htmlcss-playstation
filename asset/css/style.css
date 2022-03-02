@@ -32,11 +32,6 @@
     transform: translateY(-5%);
 }
 
-/*HEADER SECTION*/
-#header-section img {
-    height: 30px;
-}
-
 /*SECTION 1*/
 #section-1>div {
     background-image: url("../img/jumbo-bg.png");
