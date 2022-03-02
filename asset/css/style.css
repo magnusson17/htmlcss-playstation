@@ -76,8 +76,8 @@
         justify-content: center;
     }
 
-    .container-3_small-imgs-div:hover {
-        border-bottom: 2px solid blue;
+    .section-3_small-imgs-div:hover {
+        box-shadow: 0px 2px blue;
     }
 
     /* .mx_20px_md {
