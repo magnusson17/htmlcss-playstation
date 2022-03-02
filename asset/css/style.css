@@ -22,6 +22,10 @@
     border-radius: 10px;
 }
 
+#header-section img {
+    height: 30px;
+}
+
 #section-1>div {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
