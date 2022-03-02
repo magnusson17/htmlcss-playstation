@@ -76,6 +76,10 @@
         justify-content: center;
     }
 
+    .container-3_small-imgs-div:hover {
+        border-bottom: 2px solid blue;
+    }
+
     /* .mx_20px_md {
         margin: 0 20px;
     } */
