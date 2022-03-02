@@ -74,9 +74,9 @@
 }
 
 /*CHANGE BOOTSTRAPT CLASS*/
-.navbar-collapse {
+/* .navbar-collapse {
     flex-grow: 0;
-}
+} */
 
 @media screen and (min-width: 768px) {
 
