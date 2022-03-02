@@ -56,6 +56,10 @@
     background-color: blue;
 }
 
+#section-footer a {
+    color: white;
+}
+
 .d_md_none {
     display: none;
 }
