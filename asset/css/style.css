@@ -75,6 +75,12 @@
 /*FOOTER SECTION*/
 #section-footer a {
     color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+#section-footer ul {
+    list-style: none;
 }
 
 /*CHANGE BOOTSTRAPT CLASS*/
