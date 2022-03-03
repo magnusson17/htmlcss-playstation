@@ -32,6 +32,14 @@
     transform: translateY(-5%);
 }
 
+.hover_img_grow {
+    transition: transform 0.3s;
+}
+
+.hover_img_grow:hover {
+    transform: scale(1.1);
+}
+
 /*SECTION 1*/
 #section-1>div {
     background-image: url("../img/jumbo-bg.png");
@@ -45,12 +53,12 @@
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
-    background-color: gray;
+    background-color: #1f1f1f;
 }
 
 /*SECTION 5*/
 #section-5 {
-    background-color: gray;
+    background-color: #1f1f1f;
 }
 
 /*SECTION 7*/
