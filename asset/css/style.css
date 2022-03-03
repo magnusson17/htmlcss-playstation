@@ -19,10 +19,6 @@
     border-radius: 10px;
 }
 
-.d_md_none {
-    display: none;
-}
-
 /*hover effetcts*/
 .hover_img_up {
     transition: transform 0.3s;
@@ -46,6 +42,19 @@
     background-position: center;
     background-size: cover;
     height: 70vh;
+}
+
+/*SECTION 3*/
+.section-3_small-imgs-div {
+    filter: opacity(60%);
+}
+
+.section-3_small-imgs-div {
+    transition: filter 0.2s;
+}
+
+.section-3_small-imgs-div:hover {
+    filter: opacity(100%);
 }
 
 /*SECTION 4*/
@@ -89,10 +98,6 @@
 } */
 
 @media screen and (min-width: 768px) {
-
-    .d_md_none {
-        display: block;
-    }
 
     .justify_content_center_md {
         justify-content: center;
