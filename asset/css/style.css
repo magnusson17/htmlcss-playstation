@@ -44,19 +44,6 @@
     height: 70vh;
 }
 
-/*SECTION 3*/
-.section-3_small-imgs-div {
-    filter: opacity(60%);
-}
-
-.section-3_small-imgs-div {
-    transition: filter 0.2s;
-}
-
-.section-3_small-imgs-div:hover {
-    filter: opacity(100%);
-}
-
 /*SECTION 4*/
 #section-4>div {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -77,8 +64,7 @@
 
 /*SECTION 9*/
 #section-9 {
-    background-color: #161C3B
-    ;
+    background-color: #161C3B;
 }
 
 /*FOOTER SECTION*/
@@ -99,11 +85,21 @@
 
 @media screen and (min-width: 768px) {
 
+    /*SECTION 3*/
     .justify_content_center_md {
         justify-content: center;
     }
 
+    .section-3_small-imgs-div {
+        filter: opacity(60%);
+    }
+
+    .section-3_small-imgs-div {
+        transition: 0.2s;
+    }
+
     .section-3_small-imgs-div:hover {
+        filter: opacity(100%);
         box-shadow: 0px 2px blue;
     }
 }
